@@ -1,0 +1,140 @@
+.links {
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 15px;
+}
+.links a {
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    color: black;
+    padding: 10px;
+}
+
+.links a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.gmail, .images {
+    position: relative;
+    top: 10px;
+}
+
+.apps {
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.apps a {
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+}
+
+.apps:hover {
+    border-radius: 100%;
+    background-color: #eeeeee;
+}
+
+.portrait {
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.portrait:hover {
+    border-radius: 100%;
+    background-color: #eeeeee;
+}
+
+.portrait a {
+    position: relative;
+    left: 15px;
+    bottom: 13px;
+}
+
+.google {
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.google img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.searchbar {
+    height: 44px;
+    width: 580px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#searchicon {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#voiceicon {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+#faketext {
+    pointer-events: none;
+    color: gray;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+
+#searchbar {
+    border: white;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+input:focus {
+    outline: none;
+    z-index: 6;
+}
+
