@@ -134,7 +134,8 @@
 
 #searchbar {
     border: white;
-    width: 450px;
+    width: 455px;
+    height: 15px;
     position: absolute;
     top: 50%;
     left: 48%;
